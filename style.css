@@ -1,0 +1,57 @@
+.header {
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.header * {
+    padding: 10px;
+}
+
+/* * {
+    border: solid;
+} */
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: inherit;
+}
+
+.item {
+    padding: 5px;
+    border: solid;
+    border-color: lavender;
+    border-radius: 2%;
+}
+
+h1 {
+    color: #fffaff;
+    font-size: 80px;
+}
+
+h2 {
+    color: #add8ed;
+    font-size: 40px;
+}
+
+p {
+    color: lightcyan;
+}
+
+img {
+    border: solid;
+    border-color: mintcream;
+    border-radius: 30%;
+}
+
+a:link {
+    color: teal;
+}
+
+a:visited {
+    color: lightsteelblue;
+}
